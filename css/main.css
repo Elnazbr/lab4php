@@ -1,0 +1,175 @@
+body{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background: url(../background.jpg);
+}
+.logo{
+	position: absolute;
+	width: 480px;
+	height: 166px;
+	left: 30px;
+	top: 180px;
+}
+.logo2{
+	position: absolute;
+	width: 256px;
+	height: 78px;
+	left: 87px;
+	top: 7px;
+}
+.heading{
+	position: absolute;
+	width: 406px;
+	height: 136px;
+	left: calc(50% - 406px/2 + 116px);
+	top: 60px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 85px;
+
+	color: #FFFFFF;
+}
+.inscription{
+	position: absolute;
+	width: 569px;
+	height: 88px;
+	left: 50px;
+	top: 260px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 47px;
+
+	color: #FFFFFF;
+}
+.inscriptionas{
+	position: absolute;
+	left: 69.51px;
+	right: 68.05px;
+	top: 120px;
+	bottom: 216.45px;
+
+	font-family: Playfair Display;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+
+	color: #FFFDFD;
+}
+header{
+	position: absolute;
+	width: 599px;
+	height: 47px;
+	right: 146px;
+	top: 22px;
+}
+nav ul {
+  	list-style: none; /убираем маркеры списка/
+  	margin: 0; /убираем верхнее и нижнее поле, равное 1em/
+  	padding-left: 0; /убираем левый отступ, равный 40px/
+}
+nav a {
+	text-decoration: none; /убираем подчеркивание текста ссылок/
+	font-family: Playfair Display;
+	color: #FFFFFF;
+}
+nav li {
+    	display: inline;
+   	margin-right: -2px;
+    	margin-left: 5%;
+}
+.vk{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 45px;
+	bottom: 32px;
+
+	background: url(../img/vk.png);
+}
+.fb{
+	position: absolute;
+	width: 40px;
+	height: 40.27px;
+	left: 110px;
+	bottom: 32px;
+
+	background: url(../img/face.png);
+}
+.wp{	
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 175px;
+	bottom: 32px;
+
+	background: url(../img/wp.png);
+}
+.foot{
+	position: absolute;
+	top: 850px;
+}
+*{
+	box-sizing: inherit;
+}
+.decor {
+   position: relative;
+   max-width: 800px;
+   margin: 240px auto 0;
+   background: white;
+   border-radius: 30px;
+}
+
+.form-inner {
+   padding: 50px;
+}
+.form-inner input, .form-inner textarea {
+   display: block;
+   width: 100%;
+   padding: 0 20px;
+   margin-bottom: 10px;
+   background: #E9EFF6;
+   line-height: 40px;
+   border-width: 0;
+   border-radius: 20px;
+   font-family: 'Roboto', sans-serif;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+.form-inner button{
+   margin-top: 30px;
+   background: #C7FFDB;
+   border-bottom: 4px solid #B3FFC4;
+   color: black;
+   font-size: 14px;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+.form-inner button:hover{
+	background: #B3FFC4;
+}
+.form-inner textarea {
+   resize: none;
+}
+.form-inner h3 {
+   margin-top: 0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 24px;
+   color: #707981;
+}

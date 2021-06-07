@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+	<title>Питомник британских кошек "Twix"</title>
+	<meta charset="utf-8">
+	<meta name="description" content=""/>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="onas.html">О нас</li>
+				<li><a href="kontakts.html">Контакты</a></li>
+				<li><a href="kittens.php">Хочу котенка</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="logo2">
+		<a href="index.html"><img src="img/logo 2.png"/></a>
+	</div>
+	<div class="heading">
+		Контакты
+	</div>
+	<div class="inscriptionas">
+		Контактный телефон: +7 (919) 337 91-15<br>
+		Адрес: г. Ульяновск, ул. Гончарова<br>
+		E-mail: pitomnik.twix@mail.com
+	</div>
+	<form action="ajax.php" method="post" enctype="multipart/form-data" id="form" class="decor">
+		<div class="form-left-decoration"></div>
+		<div class="form-right-decoration"></div>
+		<div class="circle"></div>
+		<div class="form-inner">
+			<h3>Написать нам</h3>
+			<input name="name" type="text" placeholder="Фамилия и имя">
+			<input name="email" type="text" placeholder="Ваша почта" id="email">
+			<input type="text" placeholder="Номер телефона" id="number">
+			<textarea name="kitten" placeholder="Введите данные о котенке..." rows="3"></textarea>
+			<button type = "submit" name = "button1" onClick="clickButton();">Отправить</button><br><br>
+		</div>
+	</form>
+	<footer>
+		<div class="foot"><div class="vk">
+		</div>
+		<div class="fb">
+		</div>
+		<div class="wp">
+		</div>
+		</div>
+	</footer>
+</body>
+</html>
